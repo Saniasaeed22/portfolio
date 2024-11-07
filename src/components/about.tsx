@@ -11,7 +11,7 @@ const About =() =>{
      
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[60px]">
             <div>
-                <img className="w-[400px]" src="/a1.png" alt="about"/>
+                <img  className="w-[400px]"src="/a1.png" alt="" />
             </div>
             <div>
                 <div className=" flex items-center justify-between w-[400px]">
