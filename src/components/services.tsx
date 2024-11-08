@@ -13,8 +13,8 @@ const Services= () =>{
                 <div>
                     <h1 className="text-3xl text-white font-bold p-7">Services</h1>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-[60px] ">
-                        <div className=" shadow-lgflex flex-col gap-4 px-8 py-10
-                         text-white bg-pink-600 border-pink-700">
+                        <div className="flex flex-col gap-4 px-8 py-10
+                         text-white bg-pink-600 border-pink-700 rounded-md">
                     
                             <FaLaptopCode />
                          <h2 className="font-medium text-2xl p-2">Website Development</h2>
@@ -27,7 +27,7 @@ const Services= () =>{
                           them to build complete web applications. </p>
                         </div>
                         <div className=" shadow-lgflex flex-col gap-4 px-8 py-10
-                         text-white bg-pink-600 border-pink-700  ">
+                         text-white bg-pink-600 border-pink-700 rounded-md ">
                         <MdOutlineMobileFriendly />
                          <h2 className="font-medium text-2xl p-2">Responsive Design and Mobile Optimization</h2>
                          <p> I Ensurea website works well across all device sizes
@@ -36,7 +36,7 @@ const Services= () =>{
                               are mobile-friendly,optimizing layouts and interactions for smaller screens.</p>
                          </div>
                          <div className=" shadow-lg flex flex-col gap-4 px-8 py-10
-                         text-white bg-pink-600 border-pink-700 "> 
+                         text-white bg-pink-600 border-pink-700 rounded-md "> 
                          <FaSearchengin />
                          <h2 className="font-medium text-2xl">Search Engine Optimization (SEO) </h2>
                          <p>Many web developers offer SEO services, making sure that a site is built 
@@ -45,7 +45,7 @@ const Services= () =>{
                             is optimized for ranking.</p>
                          </div>
                          <div className="shadow-lg flex flex-col gap-4 px-8 py-10
-                         text-white bg-pink-600 border-pink-700 ">
+                         text-white bg-pink-600 border-pink-700 rounded-md">
                             <TbBrandWebflow />
                         <h2 className="font-medium text-2xl">Custom Web Applications </h2>
                          <p>For businesses needing more than a traditional website, 

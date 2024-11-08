@@ -21,14 +21,16 @@ export default function Footer() {
 
           </div>
           <div>
-            <ul>
-                <li className="flex justify-between gap-5">
-                <Link href="/about">About</Link>
-                <Link href="/services">Service</Link>
-                <Link href="/project">Projects</Link>
-                <Link href="/contact">Contact</Link>
-                </li>
-            </ul>
+          <ul>
+        <li className="flex gap-5 py-4 font-1xl ">
+          <Link className="hover:text-pink-950"href="/">Home</Link>
+          <Link className="hover:text-pink-950"href="#about">About</Link>
+          <Link className="hover:text-pink-950"href="#services">Services</Link>
+          <Link className="hover:text-pink-950"href="#project">Projects</Link>
+          <Link className="hover:text-pink-950"href="#contact">Contact</Link>
+          
+        </li>
+      </ul>
           
           </div>
 

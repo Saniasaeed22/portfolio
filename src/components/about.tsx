@@ -6,7 +6,7 @@ import { Progress } from "@/components/ui/progress"
 
 const About =() =>{
     return(
-       <section id="about" className="container mx-auto py-10 px-4  bg-black max-w-screen-2xl">
+       <section id="about" className="container mx-auto py-9 px-4  bg-black max-w-screen-2xl">
         <h1 className="text-white font-bold text-3xl flex justify-center">About Me</h1>
      
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[60px]">

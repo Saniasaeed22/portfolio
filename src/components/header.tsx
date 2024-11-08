@@ -33,19 +33,17 @@ export default function Header() {
         <SheetTrigger className="md:hidden">
           <Menu />
         </SheetTrigger>
-        <SheetContent>
-          <ul>
-            <li className="space-x-5 py-4">
-              <Link href="/">Home</Link>
-              <Link href="/about">About</Link>
-              <Link href="/services">Services</Link>
-              <Link href="/project">Projects</Link>
-              <Link href="/contact">Contact</Link>
-
-
-
-            </li>
-          </ul>
+        <SheetContent className="bg-white">
+        <ul>
+        <li className="space-x-2 py-9 flex flex-col font-medium">
+          <Link className="hover:text-pink-600"href="/">Home </Link>
+          <Link className="hover:text-pink-600"href="#about">About</Link>
+          <Link className="hover:text-pink-600"href="#services">Services</Link>
+          <Link className="hover:text-pink-600"href="#project">Projects</Link>
+          <Link className="hover:text-pink-600"href="#contact">Contact</Link>
+        </li>
+      </ul>
+          
         </SheetContent>
       </Sheet>
     </header>

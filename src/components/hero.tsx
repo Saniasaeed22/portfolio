@@ -9,7 +9,8 @@ import { Button } from "@/components/ui/button"
 
 const Hero= () =>{
     return(
-<div id="hero" className="min-h-screen bg-no-repeat bg-[url(/hero11.png)] bg-right lg:bg[45%] md:bg[25%] sm:bg[15%]bg-cover bg-black"
+<div id="hero" className="min-h-screen bg-no-repeat bg-[url(/hero11.png)] 
+bg-right lg:bg[45%] md:bg[25%] sm:bg[15%]bg-cover bg-black"
 style={{backgroundSize:"35%"}}>
     
     <div className= " container mx-auto px-4 py-10 text-white">
@@ -24,7 +25,7 @@ style={{backgroundSize:"35%"}}>
            <p className="font-thin text-4xl md:text-2xl">years of experience in the field of web development.</p> </div>
         </div>
         </div>
-          <div className="px-44 py-7 md:flex justify-center  ">
+          <div className="flex justify-center py-7">
           <Button className="text-white bg-pink-600 border-pink-900 hover:bg-pink-950"variant="outline">Contact Me</Button>
           </div>
 
